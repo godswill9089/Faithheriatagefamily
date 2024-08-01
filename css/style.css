@@ -484,6 +484,10 @@ a:focus {
     opacity: 1;
 }
 
+@media (max-width: 412px) {
+
+}
+
 @media (max-width: 991.98px) {
     .carousel .carousel-text h1 {
         font-size: 35px;
@@ -521,6 +525,24 @@ a:focus {
         padding: 8px 20px;
         font-size: 14px;
         letter-spacing: 0;
+    }
+
+    .carousel .carousel-img{
+        min-height: 0px ;
+     }
+
+     .carousel .carousel-item{
+        min-height: 0px;
+     }
+    
+     .carousel .owl-nav .owl-next{
+        margin-top: 30px;
+     }
+          .carousel .owl-nav .owl-prev{
+            margin-top: 30px;
+          }
+    .carousel{
+        margin-bottom: 0px;
     }
 }
 
@@ -712,6 +734,15 @@ a:focus {
     }
 }
 
+@media (max-width: 575.98px) {
+.about {
+       padding: 0px;
+    }
+        .about .about-img {
+            width: 100%;
+            height: 20%;
+        }
+}
 
 /*******************************/
 /********* Service CSS *********/
@@ -829,11 +860,18 @@ a:focus {
 
 .donate .donate-form .form-control {
     height: 60px;
-    color: #ffffff;
-    padding: 17px 10px;
+    color: #5a5555;
+    /* padding: 17px 10px; */
     border-radius: 0;
     border: 1px solid #ffffff;
     background: transparent;
+    font-weight: bold;
+}
+
+@media (max-width: 575.98px) {
+    .donate .donate-form .form-control {
+        padding: 10px;
+    }
 }
 
 .donate .donate-form .form-control::placeholder {
@@ -2032,6 +2070,10 @@ a:focus {
     margin-top: 45px;
     padding-top: 90px;
     background: #20212B;
+}
+
+.container .row{
+    justify-content: space-around;
 }
 
 .footer .footer-contact,
