@@ -335,6 +335,9 @@ a:focus {
 /*******************************/
 /********** Hero CSS ***********/
 /*******************************/
+.page-top{
+    margin-top: 100px;
+}
 .carousel {
     position: relative;
     width: 100%;
