@@ -1,9 +1,9 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+
 body {
     color: #777777;
-    font-weight: 500;
     background: #ffffff;
     font-family: 'Quicksand', sans-serif;
 }
@@ -331,6 +331,12 @@ a:focus {
     }
 }
 
+@media (max-width: 575.98px ) {
+    .navbar a{
+        font-size: 10px;
+    }
+}
+
 
 /*******************************/
 /********** Hero CSS ***********/
@@ -446,8 +452,8 @@ a:focus {
 
 .carousel .owl-nav .owl-prev:hover,
 .carousel .owl-nav .owl-next:hover {
-    color: #ffffff;
-    background: #FDBE33;
+    /* color: #ffffff;
+    background: #FDBE33; */
 }
 
 .carousel .owl-nav .owl-prev {
@@ -482,10 +488,6 @@ a:focus {
     color: #ffffff;
     background: #000000;
     opacity: 1;
-}
-
-@media (max-width: 412px) {
-
 }
 
 @media (max-width: 991.98px) {
@@ -528,7 +530,8 @@ a:focus {
     }
 
     .carousel .carousel-img{
-        min-height: 0px ;
+        margin-bottom: 29px;
+        height: 10px;
      }
 
      .carousel .carousel-item{
@@ -536,10 +539,12 @@ a:focus {
      }
     
      .carousel .owl-nav .owl-next{
-        margin-top: 30px;
+        margin-top: 35px;
+        background: none;
      }
           .carousel .owl-nav .owl-prev{
-            margin-top: 30px;
+            margin-top: 35px;
+            background: none !important;
           }
     .carousel{
         margin-bottom: 0px;
