@@ -236,4 +236,10 @@ console.log("value", value)
     handler.openIframe();
 }
 
+$(document).ready(function () {
+    $('.nav-item-link').on('click', function () {
+        $('.navbar-collapse').collapse('hide');
+    });
+});
+
 
