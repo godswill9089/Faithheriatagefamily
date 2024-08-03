@@ -245,6 +245,16 @@ a:focus {
     transition: .5s;
     z-index: 999;
 }
+
+.navbar.nav-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    transition: .5s;
+    background-color: #323030ee !important;
+}
+
 .navbar .navbar-brand {
     margin: 10px;
     color: #ffffff;
@@ -1429,7 +1439,7 @@ a:focus {
     }
     
     .event .event-meta {
-        flex-direction: row;
+        /* flex-direction: row; */
     }
     
     .event .event-meta p {
