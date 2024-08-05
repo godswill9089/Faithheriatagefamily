@@ -2,6 +2,8 @@
 // const PaystackPop = require('@paystack/inline-js')
 
 history.pushState("", document.title, window.location.pathname + window.location.search);
+window.history.pushState("", document.title, window.location.pathname + window.location.search);
+
 
 (function ($) {
     "use strict";
