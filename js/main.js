@@ -1,8 +1,7 @@
 // import PaystackPop from '@paystack/inline-js';
 // const PaystackPop = require('@paystack/inline-js')
 
-history.pushState("", document.title, window.location.pathname + window.location.search);
-window.history.pushState("", document.title, window.location.pathname + window.location.search);
+
 
 
 (function ($) {
@@ -17,6 +16,9 @@ window.history.pushState("", document.title, window.location.pathname + window.l
         }, 1);
     };
     loader();
+
+    history.pushState("", document.title, window.location.pathname + window.location.search);
+    window.history.pushState("", document.title, window.location.pathname + window.location.search);
     
     // Back to top button
     $(window).scroll(function () {
